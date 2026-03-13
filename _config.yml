@@ -23,12 +23,12 @@ email: wmd@amirite.tech
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wmd.sh" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: WMDRWLF
-github_username:  zerokaine
+github_username: zerokaine
 
 # Build settings
-remote_theme: pages-themes/dinky@v0.2.0
+theme: jekyll-theme-dinky
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
